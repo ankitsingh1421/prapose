@@ -1,0 +1,113 @@
+.main{
+    position: absolute;
+ background-image: url('./tirvingphoto_new-haven-proposal-photo_001-1536x1022.jpg');
+ height: 100%;
+ width: 100%;
+ background-size: cover;
+}
+.fram{
+    color: white;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    left: 30%;
+    top: 70px;
+    padding: 50px 30px 30px 30px ;
+    text-align: center;
+    background-image: url('./download.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+
+}
+.fram h2{
+  margin-top: -30px;
+ }
+ .fram p{
+     font-size: 17px;
+     font-weight: 600;
+}
+.one{
+    gap: 20px;
+    height: 30px;
+    width: 60px;
+background-color: green;
+border-radius: 5px;
+border-color: transparent;
+color: white;
+
+}
+.two{
+  height: 30px;
+    width: 60px;
+  background-color: red;
+border-radius: 5px;
+border-color: transparent;
+color: white;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .swap button:first-child {
+    order: 2;
+  }
+  
+  .swap button:last-child {
+    order: 1;
+  }
+  @media (max-width: 600px) {
+    .main{
+        position: fixed;
+     background-image: url('./taylor-brandon-rNnoXb3Zq7g-unsplash.jpg');
+     height: 700px;
+     width: 410px;
+     background-size: cover;
+     /* background-repeat: no-repeat; */
+    }
+    .fram{
+        color: white;
+        position: absolute;
+        height: 100px;
+        width: 200px;
+        left: 15%;
+        top: 110px;
+        text-align: center;
+        background-image: url('./download.jpeg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 10px;
+    
+    }
+   .fram h2{
+    margin-top: -30px;
+   }
+   .fram p{
+       font-size: 17px;
+       font-weight: 600;
+  }
+  .one{
+      gap: 20px;
+      height: 30px;
+      width: 60px;
+  background-color: green;
+  border-radius: 5px;
+  border-color: transparent;
+  color: white;
+
+  }
+  .two{
+    height: 30px;
+      width: 60px;
+    background-color: red;
+  border-radius: 5px;
+  border-color: transparent;
+  color: white;
+
+}
+
+  }
